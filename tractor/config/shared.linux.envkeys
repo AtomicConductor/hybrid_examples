@@ -1,9 +1,8 @@
 [
     {
-        "keys": ["default"],
-        "environment": {
-        },
-        "envhandler": "default"
+        "keys": ["default"],        
+        "envhandler": "default",
+        "environment": {}
     },
     {
        "keys": ["conductor_jid*", "conductor_tid*"],

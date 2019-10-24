@@ -63,6 +63,7 @@ def poll_job(job_label, task_label='000'):
             json_response = get_task_log( job_id=job_label, 
                                           task_id=task_label, 
                                           first_line=first_log_line)
+            
             log_response = json.loads(json_response)
             
             try:

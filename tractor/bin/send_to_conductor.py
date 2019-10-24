@@ -118,10 +118,10 @@ def update_tractor_tasks(tractor_job_id, conductor_job_id):
 if __name__ == "__main__":
  
     # Read data that is passed by the Tractor menu command
-    jsonData = sys.stdin.read()
+    json_data = sys.stdin.read()
     
-    if jsonData:
-        jobs = json.loads(jsonData)
+    if json_data:
+        jobs = json.loads(json_data)
     
         LOG.debug("Using input: '{}'".format(jobs, type(jobs)))
         
